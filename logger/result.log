@@ -1,0 +1,7 @@
+nohup: ignoring input
+2022-11-30 04:07:58.556954: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-11-30 04:07:58.670470: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-11-30 04:07:58.699169: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+WARNING:absl:Failed to import tensorflow serving protos. It can fail if the TF version doesn't match with the TF Serving version. We will try importing again with a workaround:module 'tensorflow.core.protobuf.error_codes_pb2' has no attribute 'tensorflow'
+INFO:absl:2022-11-30 04:08:01.537033, logger test!!
